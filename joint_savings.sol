@@ -26,8 +26,8 @@ contract JointSavings {
     - A variable of type `address public` named `lastToWithdraw`
     - Two variables of type `uint public` named `lastWithdrawAmount` and `contractBalance`. */
     
-    address payable accountOne = 0x12FDFB10eF3e67Eb9a18f09cDf22c8d3690EC97B;
-    address payable accountTwo = 0x70f81F9505158af2Ce2F0DdDBEf7289Fe7c1Dadb;
+    address payable accountOne ;
+    address payable accountTwo ;
     address public lastToWithdraw;
     uint public lastWithdrawAmount;
     uint public contractBalance;
